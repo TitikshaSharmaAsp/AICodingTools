@@ -106,6 +106,35 @@ section h3 {
   border: 1px solid rgba(13,71,161,0.08);
 }
 
+/* participant item layout */
+.participant-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.participant-email {
+  display: inline-block;
+}
+
+.delete-participant {
+  background: transparent;
+  border: none;
+  color: #b71c1c;
+  font-weight: bold;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.delete-participant:hover {
+  background: rgba(183,28,28,0.08);
+}
+
 /* when no participants */
 .participants-list li.no-participants {
   background: transparent;
